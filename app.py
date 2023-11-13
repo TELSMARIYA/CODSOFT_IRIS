@@ -29,7 +29,7 @@ if st.sidebar.checkbox('View Distributions', False):
     
 
 
-image = Image.open(r'C:iris-flower-meaning-and-symbolism.jpg')
+image = Image.open(r'iris-flower-meaning-and-symbolism.jpg')
 st.image(image)
 
 # step 1 : load the pickled model
